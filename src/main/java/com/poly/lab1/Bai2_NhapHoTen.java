@@ -11,6 +11,7 @@ import java.util.Scanner;
  * @author DELL
  */
 public class Bai2_NhapHoTen {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String hoTen;
@@ -20,6 +21,7 @@ public class Bai2_NhapHoTen {
         hoTen = sc.nextLine();
         System.out.print("Nhap nam sinh: ");
         namSinh = sc.nextInt();
+       
         
         System.out.printf("Ho ten %s, Tuoi: %d \n", hoTen, 2026 - namSinh);
     }
